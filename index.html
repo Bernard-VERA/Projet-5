@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nina Carducci | Photographe Freelance | Bordeaux</title>
+	<meta name="robots" content="index, follow"/>
+	<title>Nina Carducci - Photographe Freelance - Bordeaux</title>
 	<meta name="author" content="Nina Carducci"/>
 	<meta name="description" content="Photographe professionnelle à Bordeaux, laissez-moi immortaliser les étapes les plus importantes de votre vie, retoucher vos photos pour un rendu optimal et créer des albums personnalisés, pour revivre et partager vos souvenirs."/>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
@@ -15,10 +16,35 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+	<script type="application/ld+json"> 
+		{
+			"@context": "http://schema.org",
+		 	"@type": "LocalBusiness",
+			"image": ["https://bernard-vera.github.io/Projet-5/assets/images/nina.webp"],
+			"name": "Nina Carducci - Photographe",
+			"description": "Nina Carducci, photographe Freelance à Bordeaux, immortalise en photos les meilleurs moments de votre vie. Portrait, mariage, retouche photo, shooting photo, création d'albums.",
+			"adress": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "France"
+				},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 44.846687,
+				"longitude": -0.60659
+				},
+			"url": "https://bernard-vera.github.io/Projet-5/",
+			"telephone": "05 56 67 78 89",
+			"openingHours": "Monday-Friday 10:00-19-00",
+			"priceRange": "50€ 400€"
+		}
+	</script>
 </head>
 <body>
 <header class="top-header">
-	<h1 class="name">Nina Carducci - Photographe</h1>
+	<h1 class="name">Nina Carducci</h1>
 	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -41,23 +67,23 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<picture>
-					<source srcset="./assets/images/slider/edward-cisneros-mobile.webp" media="(max-width: 1023px)" />
-					<source srcset="./assets/images/slider/edward-cisneros.webp" media="(min-width: 1024px)" />
+					<source srcset="./assets/images/slider/edward-cisneros-mobile.webp" media="(max-width: 1023px)"/>
+					<source srcset="./assets/images/slider/edward-cisneros.webp" media="(min-width: 1024px)"/>
 				<img src="./assets/images/slider/edward-cisneros.webp" class="d-block w-100 h-100" alt="Photo de mariés s'embrassant, sous les applaudissements de leurs amis" width="1920" height="887" title="Les mariés s'embrassent, entourés par leurs amis">				
 				</picture>
 			</div>
 			<div class="carousel-item">
 				<picture>
-					<source srcset="./assets/images/slider/nicholas-green-mobile.webp" media="(max-width: 1023px)" />
-					<source srcset="./assets/images/slider/nicholas-green.webp" media="(min-width: 1024px)" />
+					<source srcset="./assets/images/slider/nicholas-green-mobile.webp" media="(max-width: 1023px)"/>
+					<source srcset="./assets/images/slider/nicholas-green.webp" media="(min-width: 1024px)"/>
 				<img src="./assets/images/slider/nicholas-green.webp" loading="lazy" class="d-block w-100 h-100" alt="Photo d'une foule en délire pendant un concert" width="1920" height="888" title="Une foule en délire pendant un concert">
 				</picture>
 			</div>
 			<div class="carousel-item">
 				<picture>
-					<source srcset="./assets/images/slider/ryoji-iwata-mobile.webp" media="(max-width: 1023px)" />
-					<source srcset="./assets/images/slider/ryoji-iwata.webp" media="(min-width: 1024px)" />
-				<img src="./assets/images/slider/ryoji-iwata.webp" loading="lazy" class="d-block w-100 h-100" alt="Photo d'un homme en costume, traversant une rue, sur un passage piéton" width="1920" height="888" title="Un homme en costume traverse la rue" >
+					<source srcset="./assets/images/slider/ryoji-iwata-mobile.webp" media="(max-width: 1023px)"/>
+					<source srcset="./assets/images/slider/ryoji-iwata.webp" media="(min-width: 1024px)"/>
+				<img src="./assets/images/slider/ryoji-iwata.webp" loading="lazy" class="d-block w-100 h-100" alt="Photo d'un homme en costume, traversant une rue, sur un passage piéton" width="1920" height="888" title="Un homme en costume traverse la rue">
 				</picture>
 			</div>
 		</div>
@@ -155,7 +181,7 @@
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
+			<form action="#" method="post">
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
 				<label for="email">Email</label>
