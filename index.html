@@ -17,31 +17,27 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
-	<script type="application/ld+json"> 
+	<script type='application/ld+json'> 
 		{
-			"@context": "http://schema.org",
-		 	"@type": "LocalBusiness",
-			"image": ["https://bernard-vera.github.io/Projet-5/assets/images/nina.webp"],
-			"name": "Nina Carducci - Photographe",
-			"description": "Nina Carducci, photographe Freelance à Bordeaux, immortalise en photos les meilleurs moments de votre vie. Portrait, mariage, retouche photo, shooting photo, création d'albums.",
-			"adress": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressCountry": "France"
-				},
-			"geo": {
-				"@type": "GeoCoordinates",
-				"latitude": 44.846687,
-				"longitude": -0.60659
-				},
-			"url": "https://bernard-vera.github.io/Projet-5/",
-			"telephone": "05 56 67 78 89",
-			"openingHours": "Monday-Friday 10:00-19-00",
-			"priceRange": "50€ 400€"
+		  "@context": "http://www.schema.org",
+		  "@type": "ProfessionalService",
+		  "name": "Nina Carducci",
+		  "url": "https://nina-carducci.github.io/",
+		  "description": "Photographe professionnelle à Bordeaux, laissez-moi immortaliser les étapes les plus importantes de votre vie, retoucher vos photos pour un rendu optimal et créer des albums personnalisés, pour revivre et partager vos souvenirs.",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "France"
+		  },
+		  "openingHours": "Mo, Tu, We, Th, Fr 10:00-19:00",
+		  "contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "0556677889"
+		  }
 		}
-	</script>
+		 </script>
 </head>
 <body>
 <header class="top-header">
@@ -177,6 +173,8 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </aside>
+</main>
+<footer>
 <section id="contact">
 	<div class="container">
 		<div class="form-container">
@@ -186,7 +184,7 @@
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
 				<label for="email">Email</label>
-				<input type="email" name="email" id="email">
+				<input type="email" name="email" id="email" autocomplete="off">
 				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 				<input type="submit" value="Envoyer"/>
@@ -197,10 +195,6 @@
 		</div>
 	</div>
 </section>
-</main>
-<footer>
-
-
 </footer>
 </body>
 </html>
