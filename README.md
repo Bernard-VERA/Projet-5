@@ -1,6 +1,6 @@
 # Débuggez et optimisez un site de photographe
 ## Nina Carducci - Photographe  
---
+
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -18,7 +18,7 @@ Vous êtes développeur freelance, et vous décidez de proposer vos services d'o
 * Faire les modifications liées à l’accessibilité du site  
 * Produire un rapport d’optimisation présentant toutes vos actions et leur impact  
 
-*Le site avant optimisation: https://nina-carducci.github.io/   (Chargement lent, bugs, non'référencé)*  
+*Le site avant optimisation: https://nina-carducci.github.io/   (Chargement lent, bugs, non-référencé)*  
 *Le site optimisé: https://bernard-vera.github.io/Projet-5/*
 
 --- 
