@@ -7,6 +7,8 @@
 ![image](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=Lighthouse&logoColor=white)  
 --
 ## Scénario  
+  
+
 Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis. Nina répond positivement à votre demande en vous demandant une optimisation de son site. Vous allez donc optimiser son site selon ses demandes indiquées dans son mail plus bas, et lui fournir un rapport détaillé de votre intervention.  
 -- 
 ## Mission  
@@ -17,6 +19,8 @@ Vous êtes développeur freelance, et vous décidez de proposer vos services d�
 * Faire les modifications liées à l’accessibilité du site  
 * Produire un rapport d’optimisation présentant toutes vos actions et leur impact  
 ---  
+  
+  
 Le site avant optimisation https://nina-carducci.github.io/ (Chargement lent, bugs, non-référencé)  
 Le site après optimisation https://bernard-vera.github.io/Projet-5/  
 --  
