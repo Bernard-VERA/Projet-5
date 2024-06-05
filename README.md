@@ -18,8 +18,9 @@ Vous êtes développeur freelance, et vous décidez de proposer vos services d'o
 * Faire les modifications liées à l’accessibilité du site  
 * Produire un rapport d’optimisation présentant toutes vos actions et leur impact  
 
-*Le site avant optimisation https://nina-carducci.github.io/ (Chargement lent, bugs, non-référencé)* 
-*Le site après optimisation https://bernard-vera.github.io/Projet-5/* 
+*Le site avant optimisation: https://nina-carducci.github.io/   (Chargement lent, bugs, non'référencé)*  
+*Le site optimisé: https://bernard-vera.github.io/Projet-5/*
+
 --- 
 ## Compétences  
 L'optimisation du référencement et de l'accessibilité sont des compétences cruciales dans le développement web. Elles sont essentielles pour améliorer la visibilité et l'accessibilité d'un site web, augmentant ainsi son trafic et sa portée. Savoir débugger un site web grâce aux Chrome DevTools aide à résoudre n'importe quel bug dans le code. Rédiger un cahier de recette pour tester un site est une étape incontournable, pour pouvoir satisfaire le propriétaire du site web, en montrant le travail effectué.
