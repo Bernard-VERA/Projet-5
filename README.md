@@ -25,3 +25,9 @@ Vous êtes développeur freelance, et vous décidez de proposer vos services d'o
 ## Compétences  
 L'optimisation du référencement et de l'accessibilité sont des compétences cruciales dans le développement web. Elles sont essentielles pour améliorer la visibilité et l'accessibilité d'un site web, augmentant ainsi son trafic et sa portée. Savoir débugger un site web grâce aux Chrome DevTools aide à résoudre n'importe quel bug dans le code. Rédiger un cahier de recette pour tester un site est une étape incontournable, pour pouvoir satisfaire le propriétaire du site web, en montrant le travail effectué.
 
+----
+
+<p align="center" width="100%">
+    <img width="90%" src="https://github.com/Bernard-VERA/Projet-5/blob/master/assets/images/carducci.jpg"> 
+</p>
+
